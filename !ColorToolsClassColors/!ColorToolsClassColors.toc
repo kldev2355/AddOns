@@ -1,0 +1,14 @@
+## Interface: 120000, 50500, 11507
+## Title: ColorTools Class Colors
+## Notes: Custom Class Colors
+## Version: 1.2.15
+## Author: Muhmiauwau
+## SavedVariables: ColorToolsClassColorsDB
+## X-Curse-Project-ID: 1118525
+
+
+Libs/LibStub/LibStub.lua
+Libs/LibLodash/LibLodash.lua
+
+frames.xml
+ColorToolsClassColors.lua

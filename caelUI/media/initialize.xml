@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Pixel Perfect UI -->
+    <script file="pixel_perfect.lua" />
+
+    <!-- The main media file. -->
+    <script file="media.lua" />
+
+    <!-- Our end users custom fonts file. -->
+    <script file="custom_fonts.lua" />
+
+    <!-- The default fonts. -->
+    <script file="fonts.lua" />
+</Ui>

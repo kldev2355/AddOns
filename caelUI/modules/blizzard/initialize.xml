@@ -1,0 +1,28 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- This lets us move the PlayerPowerBarAlt around on the screen. -->
+    <script file="PlayerPowerBarAlt.lua" />
+
+    <!-- The watch frame -->
+    <script file="WatchFrame.lua" />
+
+    <!-- Moves the ticket window. Also temporarily skins the GM chat frame. -->
+    <script file="GM.lua" />
+
+    <!-- Character panel customization -->
+    <script file="character_panel.lua" />
+
+    <!-- Replace the default fonts in the game with our own fonts. -->
+    <script file="fonts.lua" />
+
+    <!-- UI Errors done our way. -->
+    <script file="UIErrorsFrame.lua" />
+
+    <!-- This ready check sound is much better. -->
+    <script file="ReadyCheckListenerFrame.lua" />
+
+    <!-- Hides the vehicle seat indicator. -->
+    <script file="VehicleSeatIndicator.lua" />
+
+    <!-- This will load our skinning engine for the blizzard frames. -->
+    <include file="skin\initialize.xml" />
+</Ui>

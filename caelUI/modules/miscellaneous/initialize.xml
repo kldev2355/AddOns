@@ -1,0 +1,23 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Auto accept party/raid invites from those we set in our config -->
+    <script file="auto_invite.lua" />
+
+    <!-- This script automatically will release our body to the graveyard in pvp. -->
+    <script file="auto_release.lua" />
+
+    <!-- Auto accept loot. -->
+    <!-- TODO: Move this into the conversion of caelLoot to caelUI. -->
+    <script file="auto_loot.lua" />
+
+    <!-- Remove buffs we don't want placed on us. -->
+    <script file="bad_buffs.lua" />
+
+    <!-- Slash Commands list -->
+    <script file="commands.lua" />
+
+    <!-- The shadow around the edge of the screen that flashes on lower health points. -->
+    <script file="ShadowEdge.lua" />
+    
+    <!-- This is used to spin the camera and show the dimmer when we go afk. -->
+    <script file="AFKSpin.lua" />
+</Ui>

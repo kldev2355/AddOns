@@ -1,0 +1,8 @@
+## Interface: 120002
+## Title: recThreatMeter
+## Notes: Threat Meter
+## Author: Recluse
+## X-Revision: $Id$
+## RequiredDeps: caelPanels, caelUI
+
+recThreatMeter.lua

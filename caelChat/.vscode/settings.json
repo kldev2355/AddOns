@@ -1,0 +1,50 @@
+{
+    "Lua.runtime.version": "Lua 5.1",
+    "Lua.runtime.builtin": {
+        "basic": "disable",
+        "debug": "disable",
+        "io": "disable",
+        "math": "disable",
+        "os": "disable",
+        "package": "disable",
+        "string": "disable",
+        "table": "disable",
+        "utf8": "disable"
+    },
+    "Lua.workspace.library": [
+        "~/.vscode-insiders/extensions/ketho.wow-api-0.22.3/Annotations/Core"
+    ],
+    "Lua.diagnostics.globals": [
+        "FCF_ResetChatWindows",
+        "CHAT_FRAME_TEXTURES",
+        "UIDropDownMenu_AddButton",
+        "ChatTypeInfo",
+        "ChatConfigFrame",
+        "ChatConfigFrame_OnEvent",
+        "NUM_CHAT_WINDOWS",
+        "ChatFrame3",
+        "ChatFrame1",
+        "CHAT_FONT_HEIGHTS",
+        "FCF_SetChatWindowFontSize",
+        "FONT_SIZE_TEMPLATE",
+        "FCF_SavePositionAndDimensions",
+        "FCF_SetWindowName",
+        "FCF_UnDockFrame",
+        "FCF_SetTabPosition",
+        "ChatFrame_AddMessageGroup",
+        "FCF_Close",
+        "ChatFrame_RemoveAllMessageGroups",
+        "ChatFrame_RemoveAllChannels",
+        "FCF_SetWindowColor",
+        "FCF_SetWindowAlpha",
+        "FCF_DockFrame",
+        "ToggleDropDownMenu",
+        "WorldFrame",
+        "ChatFrame_AddMessageEventFilter",
+        "RaidWarningFrame",
+        "GOLD_AMOUNT",
+        "SILVER_AMOUNT",
+        "COPPER_AMOUNT",
+        "RaidWarningFrame_OnEvent"
+    ]
+}

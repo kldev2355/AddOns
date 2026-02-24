@@ -1,0 +1,37 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Loading our output functions. -->
+    <script file="output.lua" />
+
+    <!-- Loads our private functions used inside caelUI only. These are to _NOT_ be used by outside addons. -->
+    <script file="functions.lua" />
+
+    <!-- Load the events system. -->
+    <script file="events.lua" />
+
+    <!-- Load the database manager. -->
+    <script file="database.lua" />
+
+    <!-- Handle loading the configuration database. -->
+    <script file="config.lua" />
+
+    <!-- Load function check for PTR. -->
+    <script file="public_test_realm.lua" />
+
+    <!-- Collects our garbage on a regular event interval of 10k events. -->
+    <script file="garbage_collector.lua" />
+
+    <!-- This handles just setting our group as a guild group or not. -->
+    <script file="is_guild_group.lua" />
+
+    <!-- This handles the loading of our CVar values and allowing us to modifiy them when we are live. -->
+    <script file="CVars.lua" />
+
+    <!-- This handles all of our module creation. -->
+    <script file="modules.lua" />
+
+    <!--
+        We are loading this as the very LAST file in the caelui.toc file.
+        This is because we want to make sure everything is loaded in caelUI before we attempt to index it from external addons.
+     -->
+    <!-- script file="api.lua" / -->
+</Ui>

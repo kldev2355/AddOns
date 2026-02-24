@@ -1,0 +1,13 @@
+## Interface: 120001
+## Author: Caellian
+## Title: |cffD7BEA5cael|rChat
+## Notes: ChatFrames modifications
+## RequiredDeps: caelPanels, caelUI
+## X-Revision: $Id$
+## X-Website: http://www.wowinterface.com/list.php?skinnerid=31773
+## X-Category: Communication
+
+chatSettings.lua
+caelChat.lua
+chatFilters.lua
+chatBubbles.lua

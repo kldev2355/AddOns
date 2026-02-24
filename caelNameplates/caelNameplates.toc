@@ -1,0 +1,11 @@
+## Interface: 120002
+## Author: Caellian
+## Title: |cffD7BEA5cael|rNameplates
+## Notes: Custom minimalistic nameplates
+## RequiredDeps: caelUI
+## SavedVariables: caelNameplatesDB
+## X-Revision: $Id$
+## X-Website: http://www.wowinterface.com/list.php?skinnerid=31773
+## X-Category: Miscellaneous
+
+caelNamePlates.lua

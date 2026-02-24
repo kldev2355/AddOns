@@ -1,0 +1,22 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Man handle the default Blizzard stuff. -->
+    <include file="blizzard\initialize.xml" />
+
+    <!-- Addon Skins loader -->
+    <include file="addon_skins\initialize.xml" />
+
+    <!-- Additional miscellaneous modules -->
+    <include file="miscellaneous\initialize.xml" />
+
+    <!-- This is a module to do nothing but manage our merchant automation. -->
+    <include file="merchant\initalize.xml" />
+
+    <!-- Minimap & World Map -->
+    <include file="map\initalize.xml" />
+
+    <!-- Class timer bars -->
+    <include file="timers\initialize.xml" />
+
+    <!-- Raid related stuff (Auto combat log starter, buff checker on ready checks, etc) -->
+    <include file="raid\initialize.xml" />
+</Ui>

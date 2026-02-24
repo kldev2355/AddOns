@@ -1,0 +1,17 @@
+## Interface: 120001
+## Author: Belliofria, Caellian
+## Title: |cffD7BEA5cael|rUI
+## Notes: caelUI is a very light, all-inclusive UI for all specs and classes.
+## SavedVariables: cael_global
+## SavedVariablesPerCharacter: cael_user
+## OptionalDeps: DBM-Core, alDamageMeter
+## X-Revision: 0.1-alpha
+## X-Website: http://www.wowinterface.com/downloads/info16426-caelUI.html
+## X-Category: User Interface
+
+engine.lua
+media\initialize.xml
+core\initialize.xml
+modules\initalize.xml
+core\api.lua
+dev\dev.lua

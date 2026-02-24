@@ -1,0 +1,11 @@
+## Interface: 120002
+## Title: recScrollAreas
+## Author: Recluse
+## X-Revision: $Id$
+## RequiredDependencies: caelUI
+
+core\init.lua
+core\utils.lua
+settings.lua
+
+core\core.lua

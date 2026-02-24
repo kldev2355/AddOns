@@ -1,0 +1,21 @@
+## Interface: 120001
+## Author: Caellian
+## Title: |cffD7BEA5cael|rBars
+## Notes: Styles the standard ActionBars and ActionButtons
+## RequiredDeps: caelUI, caelPanels
+## X-Revision: $Id$
+## X-Website: http://www.wowinterface.com/list.php?skinnerid=31773
+## X-Category: ActionBars
+
+settings.lua
+hide_blizzard.lua
+bar1.lua
+bar2.lua
+bar3.lua
+bar4.lua
+bar5.lua
+others.lua
+styling.lua
+cooldown.lua
+pulse.lua
+ExtraActionBarFrame.lua

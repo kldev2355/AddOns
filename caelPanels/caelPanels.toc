@@ -1,0 +1,10 @@
+## Interface: 120001
+## Author: Caellian
+## Title: |cffD7BEA5cael|rPanels
+## Notes: Create my panels
+## RequiredDeps: caelUI
+## X-Revision: $Id$
+## X-Website: http://www.wowinterface.com/list.php?skinnerid=31773
+## X-Category: UI
+
+caelPanels.lua

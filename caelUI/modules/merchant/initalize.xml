@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Main merchant file. -->
+    <script file="setup.lua" />
+
+    <!-- Auto Repair -->
+    <script file="repair.lua" />
+
+    <!-- Auto stock materials -->
+    <script file="buy.lua" />
+
+    <!-- Auto sell -->
+    <script file="sell.lua" />
+</Ui>
