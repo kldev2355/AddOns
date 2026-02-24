@@ -84,18 +84,18 @@ function private.GetSpellName (spell_id)
 end
 
 
-function private.UTF8_substitution (string, index, dots)
-    local bytes = string:len()
+function private.UTF8_substitution (str, index, dots)
+    local bytes = str:len()
 
     if bytes <= index then
-        return string
+        return str
     else
         local length, position = 0, 1
 
         while position <= bytes do
             length = length + 1
 
-            local character = string.byte(position)
+            local character = str:byte(position)
 
             if character > 240 then
                 position = position + 4
@@ -113,9 +113,9 @@ function private.UTF8_substitution (string, index, dots)
         end
 
         if length == index and position <= bytes then
-            return string.sub(1, position - 1)..(dots and "..." or "")
+            return str:sub(1, position - 1)..(dots and "..." or "")
         else
-            return string
+            return str
         end
     end
 end
@@ -134,7 +134,7 @@ function private.kill (object)
         return
     end
 
-    if type(object_reference) == "frame" then
+    if object_reference.UnregisterAllEvents then
         object_reference:UnregisterAllEvents()
     end
 
@@ -143,12 +143,13 @@ function private.kill (object)
 end
 
 function private:format_money (value)
+    local str = tostring(value)
     if value >= 1e4 then
-        return string.format("|cffffd700%dg |r|cffc7c7cf%ds |r|cffeda55f%dc|r", value/1e4, string.sub(value, -4) / 1e2, string.sub(value, -2))
+        return string.format("|cffffd700%dg |r|cffc7c7cf%ds |r|cffeda55f%dc|r", value/1e4, tonumber(str:sub(-4)) / 1e2, tonumber(str:sub(-2)))
     elseif value >= 1e2 then
-        return string.format("|cffc7c7cf%ds |r|cffeda55f%dc|r", string.sub(value, -4) / 1e2, string.sub(value, -2))
+        return string.format("|cffc7c7cf%ds |r|cffeda55f%dc|r", tonumber(str:sub(-4)) / 1e2, tonumber(str:sub(-2)))
     else
-        return string.format("|cffeda55f%dc|r", string.sub(value, -2))
+        return string.format("|cffeda55f%dc|r", tonumber(str:sub(-2)))
     end
 end
 
